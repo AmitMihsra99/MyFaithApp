@@ -23,18 +23,18 @@ const Test = ({ testimonialData }) => {
                         {/* <img src={item.img} alt="Reviewer" /> */}
                         <p  className={styles.text}>{item.text}</p><br></br>
                         <img src= {item.img}/>
-                        <h5>{item.reviewer_name}</h5>
-                        <h5>{item.reviewer_designation}</h5>
+                        <h5 className={styles.datahead} >{item.reviewer_name}</h5>
+                        <h5 className={styles.datahead}>{item.reviewer_designation}</h5>
                     </div>
                 ))}
             </div>
 
             <div className={styles.icons}>
                 <div className={styles.icon} onClick={prevSlide}>
-                    <FaAngleLeft size={50} />
+                    <FaAngleLeft size={30} />
                 </div>
                 <div className={styles.icon} onClick={nextSlide}>
-                    <FaAngleRight size={50} />
+                    <FaAngleRight size={30} />
                 </div>
             </div>
         </div>

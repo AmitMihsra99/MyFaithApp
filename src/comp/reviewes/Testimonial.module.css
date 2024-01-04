@@ -63,8 +63,8 @@
 }
 
 .icon {
-  width:50px;
-  height: 50px;
+  width:30px;
+  height:30px;
   border: 1px solid #999;
   color: rgb(34, 35, 36);
   border-radius: 25px;
@@ -95,5 +95,51 @@
       top: 200px;
     
   }
+
+}
+
+@media (max-width: 430px){
+
+  .icons {
+    /* position: absolute;
+    top:500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; */
+    width:fit-content;
+      display: flex;
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:50px;
+      gap:10rem;
+      margin: auto;
+      top: 200px;
+    
+  }
+ .text{
+    font-size: 12px;
+   font-weight: bold;
+   text-align: center;
+   font-style:italic;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ }
+ .datahead{
+  font-size: 10px;
+ }
+
+ .icon {
+  width:30px;
+  height: 30px;
+  border: 1px solid #999;
+  color: rgb(34, 35, 36);
+  border-radius: 25px;
+  display: felx;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
 
 }
